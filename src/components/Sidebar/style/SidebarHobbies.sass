@@ -1,0 +1,16 @@
+@import '../../../index'
+  
+.sidebar-hobbies
+  width: 100%
+  
+  &--grid
+    display: grid
+    grid-template-columns: repeat(4, auto)
+    gap: 20px
+
+    &-item
+      justify-self: right
+      font-size: 30px
+
+      @media #{$break-tablet}
+        justify-self: center

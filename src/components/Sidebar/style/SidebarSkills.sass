@@ -1,0 +1,33 @@
+@import '../../../index'
+
+.sidebar-skills
+  width: 100%
+
+  &--subtitle
+    color: $s-color
+
+  &--list
+    direction: rtl
+    padding-right: 20px
+
+    @media #{$break-tablet}
+      padding-right: 0
+      list-style-type: none
+
+    .list-item
+      margin-bottom: 2px
+
+  &--bars
+
+    &.professional
+
+      @media #{$break-tablet}
+        display: grid
+        grid-template-columns: repeat(2,50%)
+
+      @media #{$break-toaster}
+        grid-template-columns: 100%
+
+    &.margin
+      margin: 30px 0
+

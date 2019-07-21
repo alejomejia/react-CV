@@ -1,0 +1,15 @@
+@import '../../index'
+  
+#main-header
+  display: grid
+  grid-template-columns: 35% 65%
+  column-gap: 50px
+  align-items: center
+  padding: 70px 0
+
+  @media #{$break-tablet}
+    padding: 40px 0 0
+
+  @media #{$break-phone}
+    grid-template-columns: 100%
+    padding: 40px 0 5px

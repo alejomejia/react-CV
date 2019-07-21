@@ -1,0 +1,37 @@
+@import '../../index'
+  
+.cv-title
+
+  &--name h1,
+  &--job-title h2
+    font-family: $m-font
+    text-transform: uppercase
+    margin: 0
+
+    @media #{$break-phone}
+      text-align: center
+    
+  &--name h1
+    font-size: 52px
+    font-weight: 700
+    color: $m-color
+
+    @media #{$break-tablet}
+      font-size: 40px
+
+    @media #{$break-toaster}
+      font-size: 26px
+  
+  &--job-title h2
+    font-weight: 400
+    font-size: 24px
+    letter-spacing: .03em
+
+    @media #{$break-tablet}
+      font-size: 20px
+      letter-spacing: .01em
+
+    @media #{$break-toaster}
+      font-size: 15px
+      letter-spacing: 0
+      
