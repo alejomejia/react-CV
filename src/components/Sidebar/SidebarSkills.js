@@ -28,12 +28,14 @@ class SidebarSkills extends Component{
         <div className="sidebar-skills--bars professional">
           <SkillBar label="HTML5" percentage="90" />
           <SkillBar label="CSS3" percentage="85" />
+          <SkillBar label="SASS" percentage="70" />
+          <SkillBar label="ReactJS" percentage="50" />
           <SkillBar label="WordPress" percentage="90" />
           <SkillBar label="UX Design" percentage="80" />
           <SkillBar label="UI Design" percentage="90" />
           <SkillBar label="Adobe XD" percentage="95" />
           <SkillBar label="Illustrator" percentage="85" />
-          <SkillBar label="Photoshop" percentage="60" />
+          <SkillBar label="Photoshop" percentage="40" />
 
         </div>
       </div>
