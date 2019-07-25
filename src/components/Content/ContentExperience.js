@@ -48,11 +48,11 @@ class ContentExperience extends Component{
         </JobExperience>
         <JobExperience {...EXPERIENCE.interficto}>
           <p>My main task in this company was to make cool websites in WordPress using templates with code modifications. My job position here was about communication with the company clients, cleaning WordPress virus from client websites, 
-          hosting maintenance, design and web developing, team and client capacitations, sending mailchimp campaigns and many other tasks.</p>
+          hosting maintenance, design and web development, team and client capacitations, sending mailchimp campaigns and many other tasks.</p>
         </JobExperience>
         <JobExperience {...EXPERIENCE.sigital}>
           <p>In this company I started as a web developer, then I was promoted to project manager and finally I worked as a production manager. A lot of teamwork here. My job was to watch the design and development area of the company.
-            I used WordPress as CMS, documentation and process optimization, suppliers management, QA, website optimization to achieve optimization of websites to achieve goals and generate conversions and research of platforms to improve processes. 
+            I used WordPress as CMS, documentation and process optimization, suppliers management, QA, website optimization to achieve goals and generate conversions and research of platforms to improve processes. 
             Web design in overtime for projects.</p>
         </JobExperience>
       </div>
