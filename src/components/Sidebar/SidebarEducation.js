@@ -8,10 +8,15 @@ class SidebarEducation extends Component{
     const PLATZI = <a href="https://platzi.com" target="_blank" rel="noopener noreferrer">@Platzi</a>
     const SENA = <a href="http://www.sena.edu.co" target="_blank" rel="noopener noreferrer">@Sena</a>
     const ADOBE = <a href="https://www.adobe.com" target="_blank" rel="noopener noreferrer">@Adobe</a>
+    const GEEKBOSS = <a href="https://www.geekboss.co" target="_blank" rel="noopener noreferrer">@GeekBoss</a>
 
     return(
       <div className="sidebar-education">
         <h3>{this.props.title}</h3>
+        <div className="sidebar-education--item">
+          <h4 className="sidebar-education--item-title">Google Analytics & SEO {GEEKBOSS}</h4>
+          <p className="sidebar-education--item-description">Certification for take the presential Google Analytics and SEO training from Geekboss</p>
+        </div>
         <div className="sidebar-education--item">
           <h4 className="sidebar-education--item-title">Git and GitHub Certificate {PLATZI}</h4>
           <p className="sidebar-education--item-description">Certification for take the Git and GitHub professional course from Platzi</p>
