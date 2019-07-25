@@ -17,9 +17,18 @@ class SidebarSkills extends Component{
           <li className="list-item">Committed</li>
           <li className="list-item">Eager to learn</li>
           <li className="list-item">Videogame nerd</li>
-          <li className="list-item">English</li>
         </ul>
+        <h4 className="sidebar-skills--subtitle">Languages</h4>
         <div className="sidebar-skills--bars margin">
+          <ul className="sidebar-skills--list">
+            <li className="list-item">Spanish</li>
+          </ul>
+          <SkillBar label="Writing" percentage="100" />
+          <SkillBar label="Reading" percentage="100" />
+          <SkillBar label="Talking" percentage="100" />
+          <ul className="sidebar-skills--list">
+            <li className="list-item">English</li>
+          </ul>
           <SkillBar label="Writing" percentage="80" />
           <SkillBar label="Reading" percentage="100" />
           <SkillBar label="Talking" percentage="80" />
@@ -36,7 +45,6 @@ class SidebarSkills extends Component{
           <SkillBar label="Adobe XD" percentage="95" />
           <SkillBar label="Illustrator" percentage="85" />
           <SkillBar label="Photoshop" percentage="40" />
-
         </div>
       </div>
     )

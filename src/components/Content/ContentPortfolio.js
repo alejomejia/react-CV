@@ -6,6 +6,9 @@ import CoverCESUniversity from '../../images/portfolio/ces-university.jpg';
 import CoverHolaDr from '../../images/portfolio/hola-dr.jpg';
 import CoverInsightCrime from '../../images/portfolio/insight-crime.jpg';
 import CoverEficacia from '../../images/portfolio/eficacia.jpg';
+import CoverCIPractident from '../../images/portfolio/ci-practident.jpg';
+import CoverProlirica from '../../images/portfolio/prolirica-antioquia.jpg';
+
 
 class ContentPortfolio extends Component{
 
@@ -31,6 +34,16 @@ class ContentPortfolio extends Component{
         title : "Eficacia WebApp",
         work : "UX.UI + Frontend",
         screenshot : CoverEficacia
+      },
+      item5 : {
+        title : "CIPractident Website",
+        work : "Frontend",
+        screenshot : CoverCIPractident
+      },
+      item6 : {
+        title : "Prolirica de Antioquia Website",
+        work : "Frontend",
+        screenshot : CoverProlirica
       }
     }
 
@@ -43,6 +56,8 @@ class ContentPortfolio extends Component{
           <PortfolioGrid {...PORTFOLIO.item2} />
           <PortfolioGrid {...PORTFOLIO.item3} />
           <PortfolioGrid {...PORTFOLIO.item4} />
+          <PortfolioGrid {...PORTFOLIO.item5} />
+          <PortfolioGrid {...PORTFOLIO.item6} />
         </div>
       </div>
     )
