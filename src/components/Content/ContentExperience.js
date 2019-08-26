@@ -8,13 +8,13 @@ class ContentExperience extends Component{
 
     const EXPERIENCE = {
       freelance : {
-        title: "Web Designer and Frontend Developer",
+        title: "Web Designer and UX.UI Developer",
         link : "http://alejandromejia.co",
         company : "Freelance",
         time : "January 2013 - Today"
       },
       integro : {
-        title : "Web Designer",
+        title : "UX.UI Developer",
         link : "https://www.integ.ro",
         company : "Integ.ro",
         time : "July 2018 - Today"
@@ -42,9 +42,9 @@ class ContentExperience extends Component{
   the design and functionality, and I use SASS for compile and order CSS.</p>
         </JobExperience>
         <JobExperience {...EXPERIENCE.integro}>
-          <p>Actually I work in this company. My work here is to use my knowledge in UI and UX to make webapps mockups and turn them to life! In this company I worked in really 
+          <p>Actually I work in this company. My work here is to use my knowledge in UI and UX to make webapps mockups and turn them to life! In this company I worked in a lot of really 
             interesting projects like the new web portal for <a href="http://www.ces.edu.co" target="_blank" rel="noopener noreferrer">CES University</a>, a webapp for big data indexing and searching and a 
-            new LMS platform for a big client in the country.</p>
+            new LMS platform for a big client in the country to name a few.</p>
         </JobExperience>
         <JobExperience {...EXPERIENCE.interficto}>
           <p>My main task in this company was to make cool websites in WordPress using templates with code modifications. My job position here was about communication with the company clients, cleaning WordPress virus from client websites, 

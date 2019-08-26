@@ -12,7 +12,7 @@ class Header extends Component{
         <Avatar image={IMAGE} />
         <Title 
           name="Alejandro Mejía" 
-          jobTitle="Web Designer . UX-UI . Frontend Dev" 
+          jobTitle="UX-UI Developer . Web Designer" 
         />
       </header>
     )
