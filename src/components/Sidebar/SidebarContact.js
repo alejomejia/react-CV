@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
-import './style/SidebarContact.sass';
+import React, { Component } from "react";
+import "./style/SidebarContact.sass";
 
-import Emoji from '../Emoji';
+import Emoji from "../Emoji";
 
-class SidebarContact extends Component{
-
-  render(){
-    return(
+class SidebarContact extends Component {
+  render() {
+    return (
       <div className="sidebar-contact">
         <h3>{this.props.title}</h3>
         <div className="sidebar-contact--item">
           <span className="text">
-            <a href="mailto:alejomejiacuartas@outlook.com">alejomejiacuartas@outlook.com</a> 
+            <a href="mailto:alejomejiacuartas@outlook.com">
+              alejomejiacuartas@outlook.com
+            </a>
           </span>
-          <Emoji icon="✉️" />  
+          <Emoji icon="✉️" />
         </div>
         <div className="sidebar-contact--item">
           <span className="text">
@@ -26,9 +27,8 @@ class SidebarContact extends Component{
           <Emoji icon="🌎" />
         </div>
       </div>
-    )
+    );
   }
-
 }
 
 export default SidebarContact;

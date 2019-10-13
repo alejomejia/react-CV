@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import './style/SidebarSkills.sass';
+import React, { Component } from "react";
+import "./style/SidebarSkills.sass";
 
-import SkillBar from '../SkillBar';
+import SkillBar from "../SkillBar";
 
-class SidebarSkills extends Component{
-
-  render(){
-    
-    return(
+class SidebarSkills extends Component {
+  render() {
+    return (
       <div className="sidebar-skills">
         <h3>{this.props.title}</h3>
         <h4 className="sidebar-skills--subtitle">Personal</h4>
@@ -27,7 +25,7 @@ class SidebarSkills extends Component{
           <SkillBar label="Reading" percentage="100" />
           <SkillBar label="Talking" percentage="100" />
           <ul className="sidebar-skills--list">
-            <li className="list-item">English</li>
+            <li className="list-item">English - B2</li>
           </ul>
           <SkillBar label="Writing" percentage="80" />
           <SkillBar label="Reading" percentage="100" />
@@ -47,9 +45,8 @@ class SidebarSkills extends Component{
           <SkillBar label="Photoshop" percentage="40" />
         </div>
       </div>
-    )
+    );
   }
-
 }
 
 export default SidebarSkills;
