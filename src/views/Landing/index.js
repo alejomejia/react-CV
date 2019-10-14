@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import { Header } from "../../components";
 
-import Sidebar from "../../components/Sidebar/Sidebar";
-import Content from "../../components/Content/Content";
+import Sidebar from "../../components/Sidebar";
+import Content from "../../components/Content";
 
 import { MainContainer, Container } from "./styles";
 

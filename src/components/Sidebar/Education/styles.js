@@ -7,7 +7,7 @@ export const Title = styled.h3``;
 
 export const Item = styled.div``;
 
-export const Subtitl e = styled.h4`
+export const Subtitle = styled.h4`
   color: ${THEME.palette.grey.dark};
 `;
 

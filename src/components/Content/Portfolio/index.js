@@ -2,12 +2,12 @@ import React from "react";
 
 import PortfolioGrid from "../../PortfolioGrid";
 
-import CoverCESUniversity from "../../images/portfolio/ces-university.jpg";
-import CoverHolaDr from "../../images/portfolio/hola-dr.jpg";
-import CoverInsightCrime from "../../images/portfolio/insight-crime.jpg";
-import CoverEficacia from "../../images/portfolio/eficacia.jpg";
-import CoverCIPractident from "../../images/portfolio/ci-practident.jpg";
-import CoverProlirica from "../../images/portfolio/prolirica-antioquia.jpg";
+import CoverCESUniversity from "../../../images/portfolio/ces-university.jpg";
+import CoverHolaDr from "../../../images/portfolio/hola-dr.jpg";
+import CoverInsightCrime from "../../../images/portfolio/insight-crime.jpg";
+import CoverEficacia from "../../../images/portfolio/eficacia.jpg";
+import CoverCIPractident from "../../../images/portfolio/ci-practident.jpg";
+import CoverProlirica from "../../../images/portfolio/prolirica-antioquia.jpg";
 
 import { Wrapper, Title, Grid } from "./styles";
 
