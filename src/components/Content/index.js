@@ -1,32 +1,29 @@
-import React, { Component } from 'react';
-import './style/Content.sass';
+import React from "react";
 
-import ContentAbout from './ContentAbout';
-import ContentExperience from './ContentExperience';
-import ContentPortfolio from './ContentPortfolio';
-import ContentReferences from './ContentReferences';
+import ContentAbout from "./About";
+import ContentExperience from "./Experience";
+import ContentPortfolio from "./Portfolio";
+import ContentReferences from "./References";
 
-class Content extends Component{
+import { Main, Item } from "./styles";
 
-  render(){
-    return(
-      <article id="content">
-        <div className="item">
-          <ContentAbout title="About me" />
-        </div>
-        <div className="item">
-          <ContentExperience title="Experience" />
-        </div>
-        <div className="item">
-          <ContentPortfolio title="Portfolio" />
-        </div>
-        <div className="item">
-          <ContentReferences title="References" />
-        </div>
-      </article>
-    )
-  }
-
+function Content() {
+  return (
+    <Main id="content">
+      <Item>
+        <ContentAbout title="About me" />
+      </Item>
+      <Item>
+        <ContentExperience title="Experience" />
+      </Item>
+      <Item>
+        <ContentPortfolio title="Portfolio" />
+      </Item>
+      <Item>
+        <ContentReferences title="References" />
+      </Item>
+    </Main>
+  );
 }
 
 export default Content;

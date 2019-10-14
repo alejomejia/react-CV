@@ -11,6 +11,7 @@ const THEME = {
     },
     white: {
       main: "#fff",
+      lighter: "#f9f9f9",
       light: "#eee",
       dark: "#efefef"
     },
