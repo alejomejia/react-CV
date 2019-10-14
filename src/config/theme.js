@@ -3,6 +3,7 @@ const THEME = {
     primary: {
       main: "#4042ff",
       dark: "#0002d9",
+      darker: "#000173",
       gradient: "linear-gradient(90deg, #4042ff 0%, #0002d9  100%)"
     },
     secondary: {

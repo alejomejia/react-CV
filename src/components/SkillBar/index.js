@@ -1,24 +1,19 @@
-import React, { Component } from 'react';
-import './style/SkillBar.sass';
+import React from "react";
 
-class SkillBar extends Component{
+import { Wrapper, Label, Percentage, Bar, Progress } from "./styles";
 
-  render(){
-
-    const progressBar = {'width' : `${this.props.percentage}%`};
-    
-    return(
-      <div className="skill-bar">
-        <div className="skill-bar--label">
-          {this.props.label} <span className="percentage">{this.props.percentage}%</span>
-        </div>
-        <div className="skill-bar--bar">
-          <div className="skill-bar--bar-progress" style={progressBar}></div>
-        </div>
-      </div>
-    )
-  }
-
+function SkillBar({ percentage, label }) {
+  return (
+    <Wrapper>
+      <Label>
+        {label}
+        <Percentage>{percentage}%</Percentage>
+      </Label>
+      <Bar>
+        <Progress bar={percentage} />
+      </Bar>
+    </Wrapper>
+  );
 }
 
 export default SkillBar;
