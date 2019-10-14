@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
-import './style/Avatar.sass';
+import React from "react";
 
-class Avatar extends Component{
-  render(){
-    return(
-      <div className="cv-picture">
-        <figure className="cv-picture--wrapper">
-          <img 
-            className="cv-picture--avatar" 
-            src={this.props.image} 
-            alt="Avatar" 
-          />
-        </figure>
-      </div>
-    )
-  }
+import { Wrapper, Figure, Image } from "./styles";
 
+function Avatar({ image }) {
+  return (
+    <Wrapper>
+      <Figure>
+        <Image src={image} alt="Avatar" />
+      </Figure>
+    </Wrapper>
+  );
 }
 
 export default Avatar;
