@@ -1,25 +1,20 @@
-import React, { Component } from 'react';
-import './style/JobExperience.sass';
+import React from "react";
 
-class JobExperience extends Component{
+import { Item, Title, Time } from "./styles";
 
-  render(){
-    return(
-      <div className="job-experience">
-        <h4 className="job-experience--title">
-          {this.props.title} <a 
-            href={this.props.link} 
-            target="_blank" 
-            rel="noopener noreferrer">
-            @{this.props.company}
-          </a>
-        </h4>
-        <span className="job-experience--time">{this.props.time}</span>
-        {this.props.children}
-      </div>
-    )
-  }
-
+function JobExperience({ title, link, company, time, children }) {
+  return (
+    <Item>
+      <Title>
+        {title}{" "}
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          @{company}
+        </a>
+      </Title>
+      <Time>{time}</Time>
+      {children}
+    </Item>
+  );
 }
 
 export default JobExperience;

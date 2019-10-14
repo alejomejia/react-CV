@@ -16,6 +16,10 @@ const THEME = {
       main: "232323",
       gradient:
         "linear-gradient(135deg, rgba(44,44,44,1) 0%, rgba(31,31,31,1) 100%)"
+    },
+    grey: {
+      main: "#a0a0a0",
+      dark: "#565656"
     }
   },
   typography: {
