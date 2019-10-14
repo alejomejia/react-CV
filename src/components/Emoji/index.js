@@ -1,15 +1,15 @@
-import React, { Component , Fragment } from 'react';
+import React from "react";
 
-class Emoji extends Component{
+import { Icon } from "./styles";
 
-  render(){
-    return(
-      <Fragment>
-        <span className="icon" role="img" aria-label="envelope">️{this.props.icon}</span> 
-      </Fragment>
-    )
-  }
-
+function Emoji({ label, icon }) {
+  return (
+    <>
+      <Icon role="img" aria-label={label}>
+        ️{icon}
+      </Icon>
+    </>
+  );
 }
 
 export default Emoji;
