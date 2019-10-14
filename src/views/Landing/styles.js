@@ -27,7 +27,7 @@ export const Container = styled.section`
   }
 
   & h3 {
-    font-family: ${THEME.typography.main};
+    font-family: ${THEME.typography.primary};
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: ${THEME.spacing(2.5)};

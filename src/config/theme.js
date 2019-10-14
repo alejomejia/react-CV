@@ -25,7 +25,7 @@ const THEME = {
     }
   },
   typography: {
-    main: "Karla, Helvetica, Verdana, sans-serif",
+    primary: "Karla, Helvetica, Verdana, sans-serif",
     secondary: "Nunito, Helvetica, Verdana, sans-serif",
     color: "#757575"
   },
