@@ -10,10 +10,11 @@ const THEME = {
     },
     white: {
       main: "#fff",
-      dark: "efefef"
+      light: "#eee",
+      dark: "#efefef"
     },
     black: {
-      main: "232323",
+      main: "#232323",
       gradient:
         "linear-gradient(135deg, rgba(44,44,44,1) 0%, rgba(31,31,31,1) 100%)"
     },

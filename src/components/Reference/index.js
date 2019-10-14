@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import './style/Reference.sass';
+import React from "react";
 
-class Reference extends Component{
+import { Wrapper, Name, Phone } from "./styles";
 
-  render(){
-
-    return(
-      <div className="reference">
-        <p className="reference-name"><strong>{this.props.name}</strong></p>
-        <p className="reference-phone"><a href={'tel:+57' + this.props.phone}>+57{this.props.phone}</a></p>
-      </div>
-    )
-  }
-
+function Reference({ name, phone }) {
+  return (
+    <Wrapper>
+      <Name>
+        <strong>{name}</strong>
+      </Name>
+      <Phone>
+        <a href={"tel:+57" + phone}>+57{phone}</a>
+      </Phone>
+    </Wrapper>
+  );
 }
 
 export default Reference;
