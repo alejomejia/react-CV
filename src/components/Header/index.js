@@ -1,23 +1,19 @@
-import React, { Component } from 'react';
-import './style/Header.sass';
+import React from "react";
 
-import IMAGE from '../images/avatar.jpg';
-import Avatar from '../components/Avatar';
-import Title from '../components/Title';
+import Avatar from "../Avatar";
+import Title from "../Title";
 
-class Header extends Component{
-  render(){
-    return(
-      <header id="main-header">
-        <Avatar image={IMAGE} />
-        <Title 
-          name="Alejandro Mejía" 
-          jobTitle="UX-UI Developer . Web Designer" 
-        />
-      </header>
-    )
-  }
+import { Head } from "./styles";
 
+import IMAGE from "../images/avatar.jpg";
+
+function Header() {
+  return (
+    <Head id="main-header">
+      <Avatar image={IMAGE} />
+      <Title name="Alejandro Mejía" jobTitle="UX-UI Developer . Web Designer" />
+    </Head>
+  );
 }
 
 export default Header;
