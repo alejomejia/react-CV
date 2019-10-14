@@ -7,6 +7,10 @@ const GlobalCSS = createGlobalStyle`
     *::before, 
     *::after{
         box-sizing: border-box;
+    } 
+
+    html{
+        font-size: 16px;
     }
 
     body,
@@ -18,7 +22,7 @@ const GlobalCSS = createGlobalStyle`
     }
 
     body{
-        background: ${THEME.palette.white.light};
+        background: ${THEME.palette.white.dark};
         position: relative;
         color: ${THEME.typography.color};
         font-family: ${THEME.typography.secondary};

@@ -9,8 +9,8 @@ const THEME = {
       main: "#3fc3eb"
     },
     white: {
-      main: "#eeeeee",
-      light: "efefef"
+      main: "#fff",
+      dark: "efefef"
     },
     black: {
       main: "232323",
@@ -24,9 +24,13 @@ const THEME = {
     color: "#757575"
   },
   breakpoints: {
+    lg: 1260,
     md: 991,
     sm: 768,
     xs: 520
+  },
+  spacing: function(num) {
+    return `${num * 10}px`;
   }
 };
 

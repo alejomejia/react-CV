@@ -1,8 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 
-import Layout from "./views/Layout";
-import Landing from "./views/Landing";
+import { Layout, Landing } from "./views";
 
 import THEME from "./config/theme";
 import GlobalCSS from "./config/global-css";
