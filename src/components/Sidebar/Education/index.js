@@ -2,28 +2,9 @@ import React from "react";
 
 import { Wrapper, Title, Item, Subtitle, Description } from "./styles";
 
-function SidebarEducation({ title }) {
-  const PLATZI = (
-    <a href="https://platzi.com" target="_blank" rel="noopener noreferrer">
-      @Platzi
-    </a>
-  );
-  const SENA = (
-    <a href="http://www.sena.edu.co" target="_blank" rel="noopener noreferrer">
-      @Sena
-    </a>
-  );
-  const ADOBE = (
-    <a href="https://www.adobe.com" target="_blank" rel="noopener noreferrer">
-      @Adobe
-    </a>
-  );
-  const GEEKBOSS = (
-    <a href="https://www.geekboss.co" target="_blank" rel="noopener noreferrer">
-      @GeekBoss
-    </a>
-  );
+import { PLATZI, SENA, ADOBE, GEEKBOSS } from "../../../config/const";
 
+function SidebarEducation({ title }) {
   return (
     <Wrapper>
       <Title>{title}</Title>
