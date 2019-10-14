@@ -1,0 +1,32 @@
+{
+  "freelance": {
+    "title": "Web Designer and UX.UI Developer",
+    "link": "http://alejandromejia.co",
+    "company": "Freelance",
+    "time": "January 2013 - Today"
+  },
+  "tenpearls": {
+    "title": "UX.UI Developer Analyst",
+    "link": "https://10pearls.com/",
+    "company": "10Pearls",
+    "time": "September 2019 - Today"
+  },
+  "integro": {
+    "title": "UX.UI Developer",
+    "link": "https://www.integ.ro",
+    "company": "Integ.ro",
+    "time": "July 2018 - September 2019"
+  },
+  "interficto": {
+    "title": "Web Leader",
+    "link": "https://www.interficto.com",
+    "company": "Interficto",
+    "time": "September 2015 - June 2018"
+  },
+  "sigital": {
+    "title": "Production Director",
+    "link": "https://www.facebook.com/sigitalmarketingventas/",
+    "company": "Sigital",
+    "time": "January 2013 - June 2015"
+  }
+}
