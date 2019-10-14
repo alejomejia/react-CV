@@ -5,7 +5,7 @@ import Title from "../Title";
 
 import { Head } from "./styles";
 
-import IMAGE from "../images/avatar.jpg";
+import IMAGE from "../../images/avatar.jpg";
 
 function Header() {
   return (

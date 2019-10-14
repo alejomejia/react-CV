@@ -1,7 +1,7 @@
 import React from "react";
 
-function Layout(props) {
-  return <>{props.children}</>;
+function Layout({ children }) {
+  return <>{children}</>;
 }
 
 export default Layout;
