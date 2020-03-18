@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "icon": "linkedin",
+    "link": "https://www.linkedin.com/in/alejandromejiac/"
+  },
+  {
+    "id": 2,
+    "icon": "github",
+    "link": "https://github.com/alejomejia"
+  },
+  {
+    "id": 3,
+    "icon": "dribbble",
+    "link": "https://dribbble.com/alejandromejia"
+  }
+]
