@@ -2,6 +2,7 @@ import React from "react";
 
 import Emoji from "../../Emoji";
 
+import HOBBIES from "./data.json";
 import { Wrapper, Title, Grid, Item } from "./styles";
 
 function SidebarHobbies({ title }) {
@@ -9,18 +10,11 @@ function SidebarHobbies({ title }) {
     <Wrapper>
       <Title>{title}</Title>
       <Grid>
-        <Item>
-          <Emoji icon="🎮" />
-        </Item>
-        <Item>
-          <Emoji icon="🎬" />
-        </Item>
-        <Item>
-          <Emoji icon="🍕" />
-        </Item>
-        <Item>
-          <Emoji icon="🏍" />
-        </Item>
+        {HOBBIES.map(hobbie => (
+          <Item key={hobbie.id}>
+            <Emoji icon={hobbie.icon} />
+          </Item>
+        ))}
       </Grid>
     </Wrapper>
   );
