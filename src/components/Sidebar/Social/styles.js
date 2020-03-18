@@ -24,7 +24,7 @@ export const Item = styled.div`
   & a {
     display: inline-block;
     transform: translateY(0);
-    transition: transform 0.35s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 
     &:before {
       display: none;
