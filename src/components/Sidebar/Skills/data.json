@@ -1,0 +1,117 @@
+{
+  "personal": [
+    {
+      "id": 1,
+      "text": "Teamwork"
+    },
+    {
+      "id": 2,
+      "text": "Responsable"
+    },
+    {
+      "id": 3,
+      "text": "Committed"
+    },
+    {
+      "id": 4,
+      "text": "Eager to learn"
+    },
+    {
+      "id": 5,
+      "text": "Focused on details"
+    },
+    {
+      "id": 6,
+      "text": "Videogame nerd"
+    }
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "lang": "Spanish - Native"
+    },
+    {
+      "id": 2,
+      "lang": "English - B2",
+      "skills": [
+        {
+          "id": 1,
+          "label": "Reading",
+          "percentage": "100"
+        },
+        {
+          "id": 2,
+          "label": "Writing",
+          "percentage": "90"
+        },
+        {
+          "id": 3,
+          "label": "Listening",
+          "percentage": "85"
+        },
+        {
+          "id": 4,
+          "label": "Talking",
+          "percentage": "80"
+        }
+      ]
+    }
+  ],
+  "professional": [
+    {
+      "id": 1,
+      "label": "HTML5",
+      "percentage": "90"
+    },
+    {
+      "id": 2,
+      "label": "CSS3",
+      "percentage": "85"
+    },
+    {
+      "id": 3,
+      "label": "ReactJS / UI",
+      "percentage": "100"
+    },
+    {
+      "id": 4,
+      "label": "ReactJS / Logic and Data",
+      "percentage": "50"
+    },
+    {
+      "id": 5,
+      "label": "Styled Components",
+      "percentage": "80"
+    },
+    {
+      "id": 6,
+      "label": "UX / UI Design",
+      "percentage": "85"
+    },
+    {
+      "id": 7,
+      "label": "Design Systems",
+      "percentage": "80"
+    },
+    {
+      "id": 8,
+      "label": "Figma",
+      "percentage": "95"
+    },
+    {
+      "id": 9,
+      "label": "Adobe XD",
+      "percentage": "90"
+    },
+    {
+      "id": 10,
+      "label": "Illustrator",
+      "percentage": "85"
+    },
+    {
+      "id": 11,
+      "label": "Photoshop",
+      "percentage": "40"
+    }
+  ]
+}
