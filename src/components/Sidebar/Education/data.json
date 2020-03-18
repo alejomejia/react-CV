@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Google Analytics & SEO",
+    "name": "GeekBoss",
+    "url": "https://www.geekboss.co",
+    "description": "Certification for take the presential Google Analytics and SEO training from GeekBoss"
+  },
+  {
+    "id": 2,
+    "title": "Git and GitHub Certificate",
+    "name": "Platzi",
+    "url": "https://platzi.com",
+    "description": "Certification for take the Git and GitHub professional course from Platzi"
+  },
+  {
+    "id": 3,
+    "title": "User Experience & User Interface Design",
+    "name": "Platzi",
+    "url": "https://platzi.com",
+    "description": "Certification for take User Experience and User Interface Design from Platzi"
+  },
+  {
+    "id": 4,
+    "title": "Web Development Certificate",
+    "name": "Platzi",
+    "url": "https://platzi.com",
+    "description": "Certification for take the Web Development course from Platzi"
+  },
+  {
+    "id": 5,
+    "title": "Photoshop and Flash CS5 Certificate",
+    "name": "Adobe",
+    "url": "https://www.adobe.com",
+    "description": "Certification for take Photoshop and Flash CS5 presencial evaluation from Adobe"
+  },
+  {
+    "id": 6,
+    "title": "Multimedia Production Technology",
+    "name": "SENA",
+    "url": "http://www.sena.edu.co",
+    "description": "A nicely complete technology, I learned from graphic design and illustration to web development using HTML5, CSS3 and JavaScript"
+  }
+]
