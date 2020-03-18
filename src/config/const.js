@@ -1,6 +1,6 @@
 import React from "react";
 
-export const getEducationInfo = (name, url) => (
+export const getEducationLink = (name, url) => (
   <>
     <a href={url} target="_blank" rel="noopener noreferrer">
       @{name}
