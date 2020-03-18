@@ -16,6 +16,10 @@ export const MainContainer = styled.section`
   @media (max-width: ${THEME.breakpoints.md}px) {
     padding-bottom: 0;
   }
+
+  @media (max-width: ${THEME.breakpoints.xs}px) {
+    margin: ${THEME.spacing(1.5)};
+  }
 `;
 
 export const Container = styled.section`
