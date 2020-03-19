@@ -2,7 +2,7 @@ import React from "react";
 
 import { Item, Head, Work, Title, Figure, Screenshot } from "./styles";
 
-function PortfolioGrid({ work, title, screenshot }) {
+function PortfolioGrid({ work, title, cover }) {
   return (
     <Item>
       <Head>
@@ -10,7 +10,7 @@ function PortfolioGrid({ work, title, screenshot }) {
         <Title>{title}</Title>
       </Head>
       <Figure>
-        <Screenshot src={screenshot} alt="Portfolio item" />
+        <Screenshot src={cover} alt="Portfolio item" />
       </Figure>
     </Item>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import PortfolioGrid from "../../PortfolioGrid";
 
@@ -9,39 +9,26 @@ import CoverEficacia from "../../../images/portfolio/eficacia.jpg";
 import CoverCIPractident from "../../../images/portfolio/ci-practident.jpg";
 import CoverProlirica from "../../../images/portfolio/prolirica-antioquia.jpg";
 
+import PORTFOLIO from "./data.json";
 import { Wrapper, Title, Grid } from "./styles";
 
 function ContentPortfolio({ title }) {
-  const PORTFOLIO = {
-    item1: {
-      title: "CES University",
-      work: "Frontend",
-      screenshot: CoverCESUniversity
-    },
-    item2: {
-      title: "Hola Dr. Web Redesign",
-      work: "UX.UI",
-      screenshot: CoverHolaDr
-    },
-    item3: {
-      title: "Insight Crime WebApp",
-      work: "UX.UI",
-      screenshot: CoverInsightCrime
-    },
-    item4: {
-      title: "Eficacia WebApp",
-      work: "UX.UI + Frontend",
-      screenshot: CoverEficacia
-    },
-    item5: {
-      title: "CIPractident Website",
-      work: "Frontend",
-      screenshot: CoverCIPractident
-    },
-    item6: {
-      title: "Prolirica de Antioquia Website",
-      work: "Frontend",
-      screenshot: CoverProlirica
+  const getCover = name => {
+    switch (name) {
+      case "ces":
+        return CoverCESUniversity;
+      case "holadr":
+        return CoverHolaDr;
+      case "ic":
+        return CoverInsightCrime;
+      case "eficacia":
+        return CoverEficacia;
+      case "cipractident":
+        return CoverCIPractident;
+      case "prolirica":
+        return CoverProlirica;
+      default:
+        return console.error("PORTFOLIO: No cover found");
     }
   };
 
@@ -50,12 +37,15 @@ function ContentPortfolio({ title }) {
       <Title>{title}</Title>
       <p>Some latest projects...</p>
       <Grid>
-        <PortfolioGrid {...PORTFOLIO.item1} />
-        <PortfolioGrid {...PORTFOLIO.item2} />
-        <PortfolioGrid {...PORTFOLIO.item3} />
-        <PortfolioGrid {...PORTFOLIO.item4} />
-        <PortfolioGrid {...PORTFOLIO.item5} />
-        <PortfolioGrid {...PORTFOLIO.item6} />
+        {PORTFOLIO.map(item => (
+          <Fragment key={item.key}>
+            <PortfolioGrid
+              title={item.title}
+              work={item.work}
+              cover={getCover(item.cover)}
+            />
+          </Fragment>
+        ))}
       </Grid>
     </Wrapper>
   );

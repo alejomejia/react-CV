@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "CES University",
+    "work": "UI Development",
+    "cover": "ces"
+  },
+  {
+    "id": 2,
+    "title": "Hola Dr. Web Redesign",
+    "work": "Design",
+    "cover": "holadr"
+  },
+  {
+    "id": 3,
+    "title": "Insight Crime WebApp",
+    "work": "Design + UI Development",
+    "cover": "ic"
+  },
+  {
+    "id": 4,
+    "title": "Eficacia WebApp",
+    "work": "Design + UI Development",
+    "cover": "eficacia"
+  },
+  {
+    "id": 5,
+    "title": "CIPractident Website",
+    "work": "UI Development",
+    "cover": "cipractident"
+  },
+  {
+    "id": 6,
+    "title": "Prolirica de Antioquia Website",
+    "work": "UI Development",
+    "cover": "prolirica"
+  }
+]
