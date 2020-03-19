@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 
 import PortfolioGrid from "../../PortfolioGrid";
 
+import CoverEJ from "../../../images/portfolio/educational-justice.jpg";
+import CoverEcocargapp from "../../../images/portfolio/ecocargapp.jpg";
 import CoverCESUniversity from "../../../images/portfolio/ces-university.jpg";
 import CoverHolaDr from "../../../images/portfolio/hola-dr.jpg";
 import CoverInsightCrime from "../../../images/portfolio/insight-crime.jpg";
@@ -15,6 +17,10 @@ import { Wrapper, Title, Grid } from "./styles";
 function ContentPortfolio({ title }) {
   const getCover = name => {
     switch (name) {
+      case "ej":
+        return CoverEJ;
+      case "ecocargapp":
+        return CoverEcocargapp;
       case "ces":
         return CoverCESUniversity;
       case "holadr":

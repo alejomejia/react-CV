@@ -1,36 +1,48 @@
 [
   {
-    "id": 1,
+    "id": 8,
+    "title": "Educational Justice",
+    "work": "UI Development",
+    "cover": "ej"
+  },
+  {
+    "id": 7,
+    "title": "Ecocargapp",
+    "work": "UX.UI Design",
+    "cover": "ecocargapp"
+  },
+  {
+    "id": 6,
     "title": "CES University",
     "work": "UI Development",
     "cover": "ces"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Hola Dr. Web Redesign",
     "work": "Design",
     "cover": "holadr"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Insight Crime WebApp",
     "work": "Design + UI Development",
     "cover": "ic"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Eficacia WebApp",
     "work": "Design + UI Development",
     "cover": "eficacia"
   },
   {
-    "id": 5,
+    "id": 2,
     "title": "CIPractident Website",
     "work": "UI Development",
     "cover": "cipractident"
   },
   {
-    "id": 6,
+    "id": 1,
     "title": "Prolirica de Antioquia Website",
     "work": "UI Development",
     "cover": "prolirica"
