@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Wrapper, Title } from "./styles";
+import { Wrapper, Title } from './styles';
 
 const ContentAbout = ({ title }) => {
   const date = new Date();
@@ -14,21 +14,21 @@ const ContentAbout = ({ title }) => {
     <Wrapper>
       <Title>{title}</Title>
       <p>
-        I am a passionate UI.UX developer and web designer with{" "}
+        I am a passionate UI.UX developer and web designer with{' '}
         {yearsOfExperience} years of experience in different digital agencies
-        from my city. I like to learn all the time about new frontend
-        technologies and learn new languages.
+        and software companies. I like to learn all the time about new frontend
+        technologies and UI trends.
       </p>
       <p>
         In my free time, I like to play videogames, watch TV series and movies,
-        and ride in my motorcycle .
+        travel and ride in my motorcycle.
       </p>
     </Wrapper>
   );
-}
+};
 
 ContentAbout.propTypes = {
-  title: PropTypes.string.isRequired
-}
+  title: PropTypes.string.isRequired,
+};
 
 export default ContentAbout;

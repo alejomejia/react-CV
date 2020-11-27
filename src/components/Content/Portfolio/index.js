@@ -1,41 +1,47 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import PortfolioGrid from "../../PortfolioGrid";
+import PortfolioGrid from '../../PortfolioGrid';
 
-import CoverEJ from "../../../images/portfolio/educational-justice.jpg";
-import CoverEcocargapp from "../../../images/portfolio/ecocargapp.jpg";
-import CoverCESUniversity from "../../../images/portfolio/ces-university.jpg";
-import CoverHolaDr from "../../../images/portfolio/hola-dr.jpg";
-import CoverInsightCrime from "../../../images/portfolio/insight-crime.jpg";
-import CoverEficacia from "../../../images/portfolio/eficacia.jpg";
-import CoverCIPractident from "../../../images/portfolio/ci-practident.jpg";
-import CoverProlirica from "../../../images/portfolio/prolirica-antioquia.jpg";
+import CoverWPMS from '../../../images/portfolio/wpms.jpg';
+import CoverEJ from '../../../images/portfolio/educational-justice.jpg';
+import CoverEcocargappDesktop from '../../../images/portfolio/ecocargapp-desktop.jpg';
+import CoverEcocargappMobile from '../../../images/portfolio/ecocargapp-mobile.jpg';
+import CoverCESUniversity from '../../../images/portfolio/ces-university.jpg';
+import CoverHolaDr from '../../../images/portfolio/hola-dr.jpg';
+import CoverInsightCrime from '../../../images/portfolio/insight-crime.jpg';
+import CoverEficacia from '../../../images/portfolio/eficacia.jpg';
+import CoverCIPractident from '../../../images/portfolio/ci-practident.jpg';
+import CoverProlirica from '../../../images/portfolio/prolirica-antioquia.jpg';
 
-import PORTFOLIO from "./data.json";
-import { Wrapper, Title, Grid } from "./styles";
+import PORTFOLIO from './data.json';
+import { Wrapper, Title, Grid } from './styles';
 
 const ContentPortfolio = ({ title }) => {
-  const getCover = name => {
+  const getCover = (name) => {
     switch (name) {
-      case "ej":
+      case 'wpms':
+        return CoverWPMS;
+      case 'ej':
         return CoverEJ;
-      case "ecocargapp":
-        return CoverEcocargapp;
-      case "ces":
+      case 'ecocargapp-desktop':
+        return CoverEcocargappDesktop;
+      case 'ecocargapp-mobile':
+        return CoverEcocargappMobile;
+      case 'ces':
         return CoverCESUniversity;
-      case "holadr":
+      case 'holadr':
         return CoverHolaDr;
-      case "ic":
+      case 'ic':
         return CoverInsightCrime;
-      case "eficacia":
+      case 'eficacia':
         return CoverEficacia;
-      case "cipractident":
+      case 'cipractident':
         return CoverCIPractident;
-      case "prolirica":
+      case 'prolirica':
         return CoverProlirica;
       default:
-        return console.error("PORTFOLIO: No cover found");
+        return console.error('PORTFOLIO: No cover found');
     }
   };
 
@@ -44,22 +50,23 @@ const ContentPortfolio = ({ title }) => {
       <Title>{title}</Title>
       <p>Some latest projects...</p>
       <Grid>
-        {PORTFOLIO.map(item => (
+        {PORTFOLIO.map((item) => (
           <Fragment key={item.id}>
             <PortfolioGrid
               title={item.title}
               work={item.work}
               cover={getCover(item.cover)}
+              link={item.link}
             />
           </Fragment>
         ))}
       </Grid>
     </Wrapper>
   );
-}
+};
 
 ContentPortfolio.propTypes = {
-  title: PropTypes.string.isRequired
-}
+  title: PropTypes.string.isRequired,
+};
 
 export default ContentPortfolio;

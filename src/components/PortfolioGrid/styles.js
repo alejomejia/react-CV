@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import THEME from "../../config/theme";
+import styled from 'styled-components';
+import THEME from '../../config/theme';
 
 export const Item = styled.div``;
 
@@ -24,11 +24,38 @@ export const Title = styled.h4`
 `;
 
 export const Figure = styled.figure`
-  display: block;
+  display: flex;
   margin: 0;
 `;
 
 export const Screenshot = styled.img`
   max-width: 100%;
   border-radius: 5px;
+`;
+
+export const Link = styled.a`
+  position: relative;
+  display: flex;
+
+  &:hover {
+    & i {
+      transform: translateY(-5px);
+    }
+  }
+`;
+
+export const Icon = styled.i`
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: ${THEME.palette.white.lighter};
+  background: ${THEME.palette.primary.gradient};
+  transform: translateY(0);
+  transition: transform 0.15s ease-in-out;
 `;
