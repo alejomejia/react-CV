@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import THEME from "../../config/theme";
+import styled from 'styled-components';
+import THEME from '../../config/theme';
 
 export const Wrapper = styled.div``;
 
@@ -34,7 +34,7 @@ export const Job = styled.h2`
   margin: 0;
   font-size: 1.5rem;
   font-weight: 400;
-  letter-spacing: 2.5px;
+  letter-spacing: 5px;
 
   @media (max-width: ${THEME.breakpoints.md}px) {
     font-size: 1.25rem;

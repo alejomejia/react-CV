@@ -14,7 +14,7 @@ const ContentAbout = ({ title }) => {
     <Wrapper>
       <Title>{title}</Title>
       <p>
-        I am a passionate UI.UX developer and web designer with{' '}
+        I am a passionate UX.UI developer and web designer with{' '}
         {yearsOfExperience} years of experience in different digital agencies
         and software companies. I like to learn all the time about new frontend
         technologies and UI trends.
