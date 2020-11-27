@@ -18,8 +18,8 @@ const SidebarSkills = ({ title }) => {
       <Subtitle>Languages</Subtitle>
       <Bars className="margin">
         {INFO.languages.map(item => (
-          <>
-            <List key={item.id}>
+          <Fragment key={item.id}>
+            <List>
               <ListItem>{item.lang}</ListItem>
             </List>
             {item.skills &&
@@ -28,7 +28,7 @@ const SidebarSkills = ({ title }) => {
                   <SkillBar label={skill.label} percentage={skill.percentage} />
                 </Fragment>
               ))}
-          </>
+          </Fragment>
         ))}
       </Bars>
       <Subtitle>Professional</Subtitle>

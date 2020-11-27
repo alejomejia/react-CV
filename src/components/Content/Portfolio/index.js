@@ -44,7 +44,7 @@ const ContentPortfolio = ({ title }) => {
       <p>Some latest projects...</p>
       <Grid>
         {PORTFOLIO.map(item => (
-          <Fragment key={item.key}>
+          <Fragment key={item.id}>
             <PortfolioGrid
               title={item.title}
               work={item.work}
