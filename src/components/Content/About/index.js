@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import { Wrapper, Title } from "./styles";
 
@@ -24,6 +25,10 @@ const ContentAbout = ({ title }) => {
       </p>
     </Wrapper>
   );
+}
+
+ContentAbout.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default ContentAbout;

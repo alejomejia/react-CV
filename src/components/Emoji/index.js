@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import { Icon } from "./styles";
 
@@ -8,6 +9,11 @@ const Emoji = ({ label, icon }) => {
       ️{icon}
     </Icon>
   );
+}
+
+Emoji.propTypes = {
+  label: PropTypes.string,
+  icon: PropTypes.string.isRequired
 }
 
 export default Emoji;

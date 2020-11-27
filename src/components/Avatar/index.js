@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import { Wrapper, Figure, Image } from "./styles";
 
@@ -10,6 +11,10 @@ const Avatar = ({ image }) => {
       </Figure>
     </Wrapper>
   );
+}
+
+Avatar.propTypes = {
+  image: PropTypes.string.isRequired
 }
 
 export default Avatar;

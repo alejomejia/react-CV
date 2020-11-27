@@ -7,7 +7,7 @@ import ContentReferences from "./References";
 
 import { Main, Item } from "./styles";
 
-function Content() {
+const Content = () => {
   return (
     <Main id="content">
       <Item>

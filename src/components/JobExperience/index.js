@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import { Item, Title, Time } from "./styles";
 
@@ -15,6 +16,14 @@ const JobExperience = ({ title, link, company, time, children }) => {
       {children}
     </Item>
   );
+}
+
+JobExperience.propTypes = {
+  title: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
 }
 
 export default JobExperience;

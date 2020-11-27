@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import PropTypes from 'prop-types';
 
 import PortfolioGrid from "../../PortfolioGrid";
 
@@ -55,6 +56,10 @@ const ContentPortfolio = ({ title }) => {
       </Grid>
     </Wrapper>
   );
+}
+
+ContentPortfolio.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default ContentPortfolio;

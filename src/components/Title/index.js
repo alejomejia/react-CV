@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Wrapper, NameWrapper, Name, JobWrapper, Job } from "./styles";
+import { Wrapper, NameWrapper, Name, JobWrapper, Job } from './styles';
 
 const Title = ({ name, jobTitle }) => {
   return (
@@ -13,6 +14,11 @@ const Title = ({ name, jobTitle }) => {
       </JobWrapper>
     </Wrapper>
   );
-}
+};
+
+Title.propTypes = {
+  name: PropTypes.string.isRequired,
+  jobTitle: PropTypes.string.isRequired,
+};
 
 export default Title;

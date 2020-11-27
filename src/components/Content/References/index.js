@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import Reference from "../../Reference";
 
@@ -20,6 +21,10 @@ const ContentReferences = ({ title }) => {
       </Grid>
     </Wrapper>
   );
+}
+
+ContentReferences.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default ContentReferences;

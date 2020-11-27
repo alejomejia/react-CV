@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Emoji from "../../Emoji";
+import Emoji from '../../Emoji';
 
-import { Wrapper, Title, Item, Text } from "./styles";
+import { Wrapper, Title, Item, Text } from './styles';
 
 const SidebarContact = ({ title }) => {
   return (
@@ -28,6 +29,10 @@ const SidebarContact = ({ title }) => {
       </Item>
     </Wrapper>
   );
-}
+};
+
+SidebarContact.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default SidebarContact;

@@ -1,7 +1,7 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import JobExperience from "../../JobExperience";
-
 import { Wrapper, Title } from "./styles";
 
 import EXPERIENCE from "./experience.json";
@@ -95,6 +95,10 @@ const ContentExperience = ({ title }) => {
       </JobExperience>
     </Wrapper>
   );
+}
+
+ContentExperience.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default ContentExperience;
