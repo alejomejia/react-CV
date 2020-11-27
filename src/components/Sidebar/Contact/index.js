@@ -4,7 +4,7 @@ import Emoji from "../../Emoji";
 
 import { Wrapper, Title, Item, Text } from "./styles";
 
-function SidebarContact({ title }) {
+const SidebarContact = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

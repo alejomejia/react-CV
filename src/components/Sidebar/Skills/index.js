@@ -5,7 +5,7 @@ import SkillBar from "../../SkillBar";
 import INFO from "./data.json";
 import { Wrapper, Title, Subtitle, List, ListItem, Bars } from "./styles";
 
-function SidebarSkills({ title }) {
+const SidebarSkills = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

@@ -1,24 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
-import { Header } from "../../components";
-
+import Header from "../../components/Header";
 import Sidebar from "../../components/Sidebar";
 import Content from "../../components/Content";
 
 import { MainContainer, Container } from "./styles";
 
-class Landing extends Component {
-  render() {
-    return (
-      <MainContainer id="main-container">
-        <Header />
-        <Container id="container">
-          <Sidebar />
-          <Content />
-        </Container>
-      </MainContainer>
-    );
-  }
+const Landing = () => {
+  return (
+    <MainContainer id="main-container">
+      <Header />
+      <Container id="container">
+        <Sidebar />
+        <Content />
+      </Container>
+    </MainContainer>
+  );
 }
 
 export default Landing;

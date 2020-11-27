@@ -6,7 +6,7 @@ import { Wrapper, Title } from "./styles";
 
 import EXPERIENCE from "./experience.json";
 
-function ContentExperience({ title }) {
+const ContentExperience = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

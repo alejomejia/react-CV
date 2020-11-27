@@ -2,7 +2,7 @@ import React from "react";
 
 import { Item, Head, Work, Title, Figure, Screenshot } from "./styles";
 
-function PortfolioGrid({ work, title, cover }) {
+const PortfolioGrid = ({ work, title, cover }) => {
   return (
     <Item>
       <Head>

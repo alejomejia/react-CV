@@ -4,7 +4,7 @@ import Reference from "../../Reference";
 
 import { Wrapper, Title, Subtitle, Grid } from "./styles";
 
-function ContentReferences({ title }) {
+const ContentReferences = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

@@ -5,7 +5,7 @@ import Emoji from "../../Emoji";
 import HOBBIES from "./data.json";
 import { Wrapper, Title, Grid, Item } from "./styles";
 
-function SidebarHobbies({ title }) {
+const SidebarHobbies = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

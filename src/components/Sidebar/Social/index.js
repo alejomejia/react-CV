@@ -3,7 +3,7 @@ import React from "react";
 import SOCIALS from "./data.json";
 import { Wrapper, Title, Grid, Item } from "./styles";
 
-function SidebarSocial({ title }) {
+const SidebarSocial = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

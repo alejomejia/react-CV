@@ -2,7 +2,7 @@ import React from "react";
 
 import { Wrapper, Name, Phone } from "./styles";
 
-function Reference({ name, phone }) {
+const Reference = ({ name, phone }) => {
   return (
     <Wrapper>
       <Name>

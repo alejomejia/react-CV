@@ -2,7 +2,7 @@ import React from "react";
 
 import { Wrapper, Title } from "./styles";
 
-function ContentAbout({ title }) {
+const ContentAbout = ({ title }) => {
   const date = new Date();
   const currentYear = date.getFullYear();
 

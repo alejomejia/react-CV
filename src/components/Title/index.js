@@ -2,7 +2,7 @@ import React from "react";
 
 import { Wrapper, NameWrapper, Name, JobWrapper, Job } from "./styles";
 
-function Title({ name, jobTitle }) {
+const Title = ({ name, jobTitle }) => {
   return (
     <Wrapper>
       <NameWrapper>

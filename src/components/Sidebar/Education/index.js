@@ -5,7 +5,7 @@ import { Wrapper, Title, Item, Subtitle, Description } from "./styles";
 import EDUCATION from "./data.json";
 import { getEducationLink } from "../../../config/const";
 
-function SidebarEducation({ title }) {
+const SidebarEducation = ({ title }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>

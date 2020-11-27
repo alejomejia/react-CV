@@ -2,7 +2,7 @@ import React from "react";
 
 import { Wrapper, Label, Percentage, Bar, Progress } from "./styles";
 
-function SkillBar({ percentage, label }) {
+const SkillBar = ({ percentage, label }) => {
   return (
     <Wrapper>
       <Label>

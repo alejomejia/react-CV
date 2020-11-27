@@ -2,7 +2,7 @@ import React from "react";
 
 import { Wrapper, Figure, Image } from "./styles";
 
-function Avatar({ image }) {
+const Avatar = ({ image }) => {
   return (
     <Wrapper>
       <Figure>

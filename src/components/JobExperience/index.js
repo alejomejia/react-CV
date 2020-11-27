@@ -2,7 +2,7 @@ import React from "react";
 
 import { Item, Title, Time } from "./styles";
 
-function JobExperience({ title, link, company, time, children }) {
+const JobExperience = ({ title, link, company, time, children }) => {
   return (
     <Item>
       <Title>

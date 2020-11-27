@@ -7,7 +7,7 @@ import { Head } from "./styles";
 
 import IMAGE from "../../images/avatar.jpg";
 
-function Header() {
+const Header = () => {
   return (
     <Head id="main-header">
       <Avatar image={IMAGE} />

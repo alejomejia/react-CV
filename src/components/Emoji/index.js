@@ -2,13 +2,11 @@ import React from "react";
 
 import { Icon } from "./styles";
 
-function Emoji({ label, icon }) {
+const Emoji = ({ label, icon }) => {
   return (
-    <>
-      <Icon role="img" aria-label={label}>
-        ️{icon}
-      </Icon>
-    </>
+    <Icon role="img" aria-label={label}>
+      ️{icon}
+    </Icon>
   );
 }
 

@@ -14,7 +14,7 @@ import CoverProlirica from "../../../images/portfolio/prolirica-antioquia.jpg";
 import PORTFOLIO from "./data.json";
 import { Wrapper, Title, Grid } from "./styles";
 
-function ContentPortfolio({ title }) {
+const ContentPortfolio = ({ title }) => {
   const getCover = name => {
     switch (name) {
       case "ej":

@@ -8,7 +8,7 @@ import SidebarSocial from "./Social";
 
 import { Aside, Item } from "./styles";
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <Aside id="sidebar">
       <Item>
